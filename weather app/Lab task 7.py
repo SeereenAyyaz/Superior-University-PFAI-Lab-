@@ -33,9 +33,8 @@ def home():
                     error = "City not found. Please enter a valid city name."
             except Exception as e:
                 error = f"Error fetching data: {e}"
-
-    # ✅ make sure this return statement is outside the IF block (aligned with 'if request.method')
     return render_template('index.html', weather=weather_data, city=city, error=error)
 
 if __name__ == '__main__':
     app.run(debug=True)
+
