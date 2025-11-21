@@ -1,0 +1,95 @@
+{
+  "intents": [
+    {
+      "tag": "admission_requirements",
+      "patterns": [
+        "What are the admission requirements?",
+        "Tell me about admission eligibility",
+        "Requirements for applying"
+      ],
+      "responses": [
+        "You need 60% marks in your previous qualification and 3 recommendation letters."
+      ]
+    },
+    {
+      "tag": "deadlines",
+      "patterns": [
+        "What is the admission deadline?",
+        "When can I apply?",
+        "Deadline for university admission"
+      ],
+      "responses": [
+        "The admission deadline is August 31st, 2025."
+      ]
+    },
+    {
+      "tag": "program_info",
+      "patterns": [
+        "What programs do you offer?",
+        "Tell me about courses",
+        "Available majors"
+      ],
+      "responses": [
+        "We offer programs in Computer Science, Business, and Engineering."
+      ]
+    },
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hi",
+        "hello",
+        "hey",
+        "good morning",
+        "good evening"
+      ],
+      "responses": [
+        "Hello! How can I help you with admissions today?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye",
+        "goodbye",
+        "see you",
+        "talk later"
+      ],
+      "responses": [
+        "Goodbye! If you have more questions, feel free to ask."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thanks",
+        "thank you",
+        "much appreciated"
+      ],
+      "responses": [
+        "You're welcome! Happy to help."
+      ]
+    },
+    {
+      "tag": "tuition_fees",
+      "patterns": [
+        "how much is tuition",
+        "tuition fees",
+        "cost of attendance"
+      ],
+      "responses": [
+        "Tuition varies by program; undergraduate programs start at $12,000 per year. Contact admissions for exact figures."
+      ]
+    },
+    {
+      "tag": "contact_info",
+      "patterns": [
+        "how can i contact admissions",
+        "admissions contact",
+        "phone or email for admissions"
+      ],
+      "responses": [
+        "You can reach admissions at admissions@example.edu or call +1-555-123-4567."
+      ]
+    }
+  ]
+}
